@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yerba Mate</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="img/logo.png" alt="vaso de Mate"> Mate</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="carrito de compras">
+                            <h6 aria-busy="true"> Presione aquí </h6>
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>fotos</th>
+                                            <th>Distintos</th>
+                                            <th>Precios</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito"
+                                class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>elige tu accesorio o yerba mate</h2>
+                        <p>Todas las hamburguesas a $15</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>diferentes articulos para el mate<br>
+                    Explora los nuevos modelos</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>seleccionados por expertos<br>
+                    Prueba las nuevas opciones</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>regalos<br>
+                    escoge el que más te guste</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate15.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>mate con bombilla</h4>
+                        <p>edición limitada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$30 <span class="u-pull-right">$15</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/matero2.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Mate artesanal junto yerba del mismo origen</h4>
+                        <p>acompañado con bombilla de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$30 <span class="u-pull-right">$15</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div >
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/matero5.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>set de materos</h4>
+                        <p>bombillas de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$40 <span class="u-pull-right">$15</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mte13.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate14.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate10.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate11.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15<span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate6.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate11.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate12.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate8.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/sol.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate CBSÉ para adelgazar</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"> <!-- desde aquí-->
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate7.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="13">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate3.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate de Guaraná (edición limitada)</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="14">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mate14.jpeg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>yerba mate</h4>
+                        <p>cubre yerba de regalo</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15 <span class="u-pull-right">$5</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="15">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!--aquí fue tu avance-->
+
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Delivery</a>
+                        <a class="enlace" href="#">Pedidos en linea</a>
+                        <a class="enlace" href="#">Pedidos vía postal</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class=""
+                        <a class="enlace" href="#">Ubicacion</a>
+                        <a class="enlace" href="#">Telefono</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="program.js"></script>
+</body>
+</html>
